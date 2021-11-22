@@ -6,7 +6,7 @@ Scripts to automate tasks in Mac
 
 ## Global step
 ```shell
-Go to /usr/local/bin and create following scripts
+Go to /usr/local/bin and create following script
 ```
 
 
@@ -32,3 +32,27 @@ rm temp.text
 
 # usage
 ``` stop 8123 ```
+
+
+
+## Opne automator to create an app
+script to open any terminal and perform task
+
+```shell
+
+if application "Terminal" is running then
+	tell application "Terminal"
+		# do script without "in window" will open a new window     
+		do script "aa"
+		activate
+	end tell
+else
+	tell application "Terminal"
+		# window 1 is guaranteed to be recently opened window     
+		do script "aa" in window 1
+		activate
+	end tell
+end if
+
+```
+
