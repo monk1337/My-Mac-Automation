@@ -73,3 +73,12 @@ save and run chmod +x space
 
 #### usage
 ``` space ```
+
+#### output
+
+``shell
+monks-MacBook-Air:check_folder monk$ space
+280M	graph-learning
+161M	gene_emd
+220K	Embeddings
+```
