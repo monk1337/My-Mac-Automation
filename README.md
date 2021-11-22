@@ -4,15 +4,12 @@ Scripts to automate tasks in Mac
 
 
 
-## Global step
+### Kill the process on particular port
+
 ```shell
 Go to /usr/local/bin and create following script
 ```
-
-
-
-1. Kill the process on particular port
-
+Port script
 
 ```shell
 #!/bin/bash
@@ -34,9 +31,8 @@ rm temp.text
 ``` stop 8123 ```
 
 
-
-## Opne automator to create an app
-script to open any terminal and perform task
+### script to open any terminal and perform task
+Open automator to create an app
 
 ```shell
 
