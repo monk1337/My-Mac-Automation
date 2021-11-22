@@ -27,6 +27,10 @@ fi
 rm temp.text
 ```
 
+```shell
+save and run chmod +x stop
+```
+
 #### usage
 ``` stop 8123 ```
 
@@ -61,6 +65,10 @@ Go to /usr/local/bin and run nano space
 
 ```shell
 echo <password> | sudo -S du -hs * | sort -hr
+```
+
+```shell
+save and run chmod +x space
 ```
 
 #### usage
