@@ -7,9 +7,9 @@ Scripts to automate tasks in Mac
 #### Kill the process on particular port
 
 ```shell
-Go to /usr/local/bin and create following script
+Go to /usr/local/bin and run nano stop
 ```
-Port script
+stop script
 
 ```shell
 #!/bin/bash
@@ -27,7 +27,7 @@ fi
 rm temp.text
 ```
 
-# usage
+## usage
 ``` stop 8123 ```
 
 
@@ -56,5 +56,12 @@ end if
 #### Show the size of current directory folders in mb 
 
 ```shell
+Go to /usr/local/bin and run nano space
+```
+
+```shell
 echo <password> | sudo -S du -hs * | sort -hr
 ```
+
+## usage
+``` space ```
