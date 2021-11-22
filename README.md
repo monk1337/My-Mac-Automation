@@ -4,7 +4,7 @@ Scripts to automate tasks in Mac
 
 
 
-#### Kill the process on particular port
+## Kill the process on particular port
 
 ```shell
 Go to /usr/local/bin and run nano stop
@@ -27,11 +27,11 @@ fi
 rm temp.text
 ```
 
-## usage
+#### usage
 ``` stop 8123 ```
 
 
-#### script to open any terminal and perform task
+## script to open any terminal and perform task
 Open automator to create an app
 
 ```shell
@@ -53,7 +53,7 @@ end if
 ```
 
 
-#### Show the size of current directory folders in mb 
+## Show the size of current directory folders in mb 
 
 ```shell
 Go to /usr/local/bin and run nano space
@@ -63,5 +63,5 @@ Go to /usr/local/bin and run nano space
 echo <password> | sudo -S du -hs * | sort -hr
 ```
 
-## usage
+#### usage
 ``` space ```
