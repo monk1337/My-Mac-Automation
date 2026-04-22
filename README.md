@@ -80,4 +80,4 @@ monks-MacBook-Air:check_folder monk$ space
 220K	Embeddings
 ```
 
-find / -size +1G -not -path "*/proc/*" -exec ls -lh {} \; 2>/dev/null | sort -k5 -rh
+find / -size +1G -not -path "/proc/*" -exec ls -lh {} \; 2>/dev/null | sort -k5 -rh
